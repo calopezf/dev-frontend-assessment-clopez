@@ -19,7 +19,8 @@ The Adapter design pattern is utilized to integrate external API data by transfo
 ### Unit Testing
 
 Unit tests for `SymbolTile.vue` are performed using `shallowMount` from Vue Test Utils. Tests verify the rendering of symbol data, navigation functionality on button clicks, and the presence and label of the button, ensuring component integrity.
-## npm run test
+
+npm run test
 
 
 ### What's Missing
@@ -37,4 +38,8 @@ Configuring and installing Jest required some time because of the version, but w
 ### Number of Hours Worked
 
 - **Total**: 8 hours
+
+### Tested and executed
+
+- **Node**: v14.15.3
 
