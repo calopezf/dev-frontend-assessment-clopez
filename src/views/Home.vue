@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
       <div class="primary-heading-con">
           <div class="heading">
               <div class="title">Welcome To Your Dev Assessment</div>

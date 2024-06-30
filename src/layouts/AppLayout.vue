@@ -9,14 +9,6 @@
                         <img src="../assets/image/logo.png" class="image">
                     </div>
                     <router-link
-                        :to="{ name : $ROUTES.HOME }"
-                        exact
-                        class="item tooltip is-tooltip-right"
-                        data-tooltip="Home"
-                    >
-                        <i class="fa fa-home"></i>
-                    </router-link>
-                    <router-link
                         :to="{ name : $ROUTES.SYMBOLS }"
                         exact
                         class="item tooltip is-tooltip-right"

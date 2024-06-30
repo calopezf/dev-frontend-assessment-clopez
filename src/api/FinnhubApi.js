@@ -20,4 +20,12 @@ export default {
             }
         });
     },
+
+    getTickerProfile(symbol) {
+        return api.get(`/stock/profile2`, {
+            params : {
+                symbol,
+            }
+        });
+    }
 }
